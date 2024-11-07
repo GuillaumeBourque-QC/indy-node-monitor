@@ -2,7 +2,7 @@ name: Publish Docker image
 
 on:
   release:
-    types: [created]  # Triggers only when a new release is created
+    types: [published]  # Triggers only when a new release is created
 
   
   workflow_dispatch:
